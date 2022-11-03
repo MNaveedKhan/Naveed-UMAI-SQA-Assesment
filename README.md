@@ -84,23 +84,14 @@ All the browser setup you can do cross browser testing from your local system an
 
 # Prerequisite:
 
- 
-Node.js (we can install cypress NodeJS) 
-10 or 12 
+ - Download node js 
+(we can install cypress NodeJS)  
 
-open cmd--> node --version 
+open cmd--> 
+write node --version
 Also have npm(node package manager) 
-
- 
-
-- Download node js 
-
-Download | Node.js  
-
  
 As per your OS, it will go to windows installer 
-
- 
 
 # Why we are installing node?
 
@@ -111,28 +102,18 @@ Check the version in cmd through below command:
 
 node –v 
 
- 
-
 # -Install Visual Studio Code:
-
  
 We need some IDE or editor where we can write and create our test 
-
 you can also use another editor. 
 
  
-
--Create a new folder for the cypress project 
+-Down the rar file and export on your local machine
 In this folder we have set up the cypress project and we will have all the sub folders in it. 
 
-Cypress--> inside this folder--> Project1 -> Folder created 
-
- 
 # -Open the folder in VS: 
 
- 
-
--Open VS CODE terminal and run command npm init -y 
+Open extracted project folder in Visual Studio Code
 
 There is terminal option so we will click and select the new terminal. It will open the terminal 
 windows on the same folder that u have in the VS. 
@@ -150,14 +131,14 @@ go back to the folder u will see a file
 u can edit as per your requirement managing all the dependencies, also initializing the npm project. 
 
 Now we can use npm commands directly on this project in case we had any dependencies and any libraries. 
-
  
 It will manage all these if I want to send this project to any new system using the package. JSON, all my dependencies will be downloaded and I don't have to do it manually. 
 In case u are familiar with java and maven, it is something like a pom file where it manages and takes care of all the dependencies. 
 
- 
-
-Now, Install Cypress npm install cypress (will install the latest version) and npx cypress -v 
+Now, Install Cypress 
+npm install cypress 
+(will install the latest version) and 
+npx cypress -v 
 If u want then give some particular version number e.g.  6.0 npm, install cypress @6.0, it will install a particular version. You can check cypress version also. 
 
 In JavaScript End to End Testing Framework --> go to latest version 
@@ -169,8 +150,6 @@ version to run
 npx is used to run npm commands in the local folder 
 npx cypress -v -- to check the version of cypress 
 
- 
-
 # -Open Cypress:
 
  
@@ -178,34 +157,24 @@ command: npx cypress open
 
 Here u can see the cypress guide. You can see project structure in VS 
 
-now u can project structure in vs 
-here we have a folder, we have sub folder most important integration. 
+Select the End to end option.
 
-here we have also an example folder 
-cyp create the folder with some sample just for our learning if u want u can delete and create your own. 
+Then you can see 2 test classes.
 
-# We will create our test in the integration folder: 
+1- reservationBug.cy.js
+2- reservationTest.cy.js
 
-fixtures folder 
+clicking on any of above class will start the executions.
 
-Upload and download any file. You can keep it in this and also if u want to refer any data from file like: 
-example. Json 
+Note:
+1- reservationBug.cy.js : Have all test cases having bugs on the testing site
+2- reservationTest.cy.js : Have all functional and non-functional test cases to test testing site.
 
-Plugin 
-Any file u can put here 
 
-Supports 
-command.js -- custom command 
-index.js-- this file is loaded before all the tests so 
-you can use it for global configuration and again we will look at it 
-later. 
+That's all
 
-Node modules 
-this will have all the libraries and all the node module by this project 
+Thank You
 
-cypress. Json 
-we can do or we can set some configuration the port and base URL the default wait time 
-all the project setup and configuration we can set in cypress. Json. 
 
  
 

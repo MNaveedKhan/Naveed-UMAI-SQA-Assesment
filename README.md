@@ -1,11 +1,11 @@
 # Naveed-UMAI-SQA-Assesment
 Its an UMAI SQA Assessment test implementation using Cypress tool
 
-**Cypress Implementation: **
+# Cypress Implementation:
 
  
 
-**INTRODUCTION: **
+# INTRODUCTION:
 
  
 
@@ -16,16 +16,16 @@ Its an UMAI SQA Assessment test implementation using Cypress tool
 
  
 
-**How to use Cypress **
+How to use Cypress
 
  
-**1: Setup: **
+1: Setup: 
 -We install cypress and select IDE or an editor where we want to write the test. 
 
-**2: Write test: **
+2: Write test:
 -Write the actual tests 
 
-**3: Run the tests: **
+3: Run the tests: **
 Run our test and see the result. 
 
 **4: Debug **

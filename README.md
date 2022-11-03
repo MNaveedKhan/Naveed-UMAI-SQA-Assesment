@@ -16,24 +16,24 @@ Its an UMAI SQA Assessment test implementation using Cypress tool
 
  
 
-How to use Cypress
+# How to use Cypress
 
  
-1: Setup: 
+# 1: Setup: 
 -We install cypress and select IDE or an editor where we want to write the test. 
 
-2: Write test:
+# 2: Write test:
 -Write the actual tests 
 
-3: Run the tests: **
+# 3: Run the tests:
 Run our test and see the result. 
 
-**4: Debug **
+# 4: Debug
 -Based on the result we can also do debugging if required. 
 
-**Cypress Features: **
+# Cypress Features:
 
-**1)Time Travel: **
+# 1)Time Travel:
 
  
 -Take snapshots as your tests run of your application 
@@ -42,11 +42,11 @@ you can see a command log and if you have however any
 of the command you can see a corresponding screenshot 
 from your application 
 
-**2)Debuggability **
+# 2)Debuggability
 
 Readable errors and stack traces 
 
-**3)Automatic waits **
+# 3)Automatic waits
 
 Automatically waits for commands and assertions before moving on 
 or custom waits cypress will take care of all the waits 
@@ -55,22 +55,22 @@ whenever you have any assertions
 In case u want to add some customs waits that option is always there we have 
 consistent 
 
-**4)Consistent Results **
+# 4)Consistent Results
 
 -Doesn't use selenium or we driver, Fast, consistent and reliable 
 
 -cypress interacts with browser directly and application directly 
 
-**5)Screenshots and videos **
+# 5)Screenshots and videos
 
  
 -When u run cypress, u will get screenshots and videos 
 
-**6)Cross Browser Testing **
+# 6)Cross Browser Testing
 
 All the browser setup you can do cross browser testing from your local system and if required u can also use remote system or cloud services for doing cross browser testing and can easily interact with CI and CD 
 
-**Cypress enables u write all types of tests: **
+# Cypress enables u write all types of tests: 
 
 -End to end test 
 -Integration test 
@@ -78,11 +78,11 @@ All the browser setup you can do cross browser testing from your local system an
 
  
 
-**Setup: **
+# Setup:
 
  
 
-**Prerequisite: **
+# Prerequisite:
 
  
 Node.js (we can install cypress NodeJS) 
@@ -102,7 +102,7 @@ As per your OS, it will go to windows installer
 
  
 
-**Why we are installing node? **
+# Why we are installing node?
 
 We are installing because cypress is a node program and we will get it using npm 
 and after installation, 
@@ -113,7 +113,7 @@ node –v
 
  
 
-**-Install Visual Studio Code: **
+# -Install Visual Studio Code:
 
  
 We need some IDE or editor where we can write and create our test 
@@ -128,7 +128,7 @@ In this folder we have set up the cypress project and we will have all the sub f
 Cypress--> inside this folder--> Project1 -> Folder created 
 
  
-**-Open the folder in VS: **
+# -Open the folder in VS: 
 
  
 
@@ -171,7 +171,7 @@ npx cypress -v -- to check the version of cypress
 
  
 
-**-Open Cypress: **
+# -Open Cypress:
 
  
 command: npx cypress open 
@@ -184,7 +184,7 @@ here we have a folder, we have sub folder most important integration.
 here we have also an example folder 
 cyp create the folder with some sample just for our learning if u want u can delete and create your own. 
 
-we will create our test in the integration folder: 
+# We will create our test in the integration folder: 
 
 fixtures folder 
 

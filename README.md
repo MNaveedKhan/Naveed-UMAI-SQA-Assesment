@@ -1,4 +1,4 @@
-# Naveed-UMAI-SQA-Assesment
+# Cypress Tool
 Its an UMAI SQA Assessment test implementation using Cypress tool
 
 # Cypress Implementation:
